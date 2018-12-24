@@ -1,0 +1,3 @@
+/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles/DayCFuck.dir

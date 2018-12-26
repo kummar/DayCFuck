@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DayCFuck.dir/main.cpp.o"
-  "CMakeFiles/DayCFuck.dir/TwoSum.cpp.o"
+  "CMakeFiles/DayCFuck.dir/Solution.cpp.o"
   "DayCFuck.pdb"
   "DayCFuck"
 )

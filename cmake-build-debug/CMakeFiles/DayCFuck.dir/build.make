@@ -70,29 +70,29 @@ CMakeFiles/DayCFuck.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DayCFuck.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karry/Desktop/project/DayCFuck/main.cpp -o CMakeFiles/DayCFuck.dir/main.cpp.s
 
-CMakeFiles/DayCFuck.dir/TwoSum.cpp.o: CMakeFiles/DayCFuck.dir/flags.make
-CMakeFiles/DayCFuck.dir/TwoSum.cpp.o: ../TwoSum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DayCFuck.dir/TwoSum.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DayCFuck.dir/TwoSum.cpp.o -c /Users/karry/Desktop/project/DayCFuck/TwoSum.cpp
+CMakeFiles/DayCFuck.dir/Solution.cpp.o: CMakeFiles/DayCFuck.dir/flags.make
+CMakeFiles/DayCFuck.dir/Solution.cpp.o: ../Solution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DayCFuck.dir/Solution.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DayCFuck.dir/Solution.cpp.o -c /Users/karry/Desktop/project/DayCFuck/Solution.cpp
 
-CMakeFiles/DayCFuck.dir/TwoSum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DayCFuck.dir/TwoSum.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karry/Desktop/project/DayCFuck/TwoSum.cpp > CMakeFiles/DayCFuck.dir/TwoSum.cpp.i
+CMakeFiles/DayCFuck.dir/Solution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DayCFuck.dir/Solution.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karry/Desktop/project/DayCFuck/Solution.cpp > CMakeFiles/DayCFuck.dir/Solution.cpp.i
 
-CMakeFiles/DayCFuck.dir/TwoSum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DayCFuck.dir/TwoSum.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karry/Desktop/project/DayCFuck/TwoSum.cpp -o CMakeFiles/DayCFuck.dir/TwoSum.cpp.s
+CMakeFiles/DayCFuck.dir/Solution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DayCFuck.dir/Solution.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karry/Desktop/project/DayCFuck/Solution.cpp -o CMakeFiles/DayCFuck.dir/Solution.cpp.s
 
 # Object files for target DayCFuck
 DayCFuck_OBJECTS = \
 "CMakeFiles/DayCFuck.dir/main.cpp.o" \
-"CMakeFiles/DayCFuck.dir/TwoSum.cpp.o"
+"CMakeFiles/DayCFuck.dir/Solution.cpp.o"
 
 # External object files for target DayCFuck
 DayCFuck_EXTERNAL_OBJECTS =
 
 DayCFuck: CMakeFiles/DayCFuck.dir/main.cpp.o
-DayCFuck: CMakeFiles/DayCFuck.dir/TwoSum.cpp.o
+DayCFuck: CMakeFiles/DayCFuck.dir/Solution.cpp.o
 DayCFuck: CMakeFiles/DayCFuck.dir/build.make
 DayCFuck: CMakeFiles/DayCFuck.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DayCFuck"

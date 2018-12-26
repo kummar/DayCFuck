@@ -123,32 +123,32 @@ DayCFuck/fast:
 	$(MAKE) -f CMakeFiles/DayCFuck.dir/build.make CMakeFiles/DayCFuck.dir/build
 .PHONY : DayCFuck/fast
 
-TwoSum.o: TwoSum.cpp.o
+Solution.o: Solution.cpp.o
 
-.PHONY : TwoSum.o
+.PHONY : Solution.o
 
 # target to build an object file
-TwoSum.cpp.o:
-	$(MAKE) -f CMakeFiles/DayCFuck.dir/build.make CMakeFiles/DayCFuck.dir/TwoSum.cpp.o
-.PHONY : TwoSum.cpp.o
+Solution.cpp.o:
+	$(MAKE) -f CMakeFiles/DayCFuck.dir/build.make CMakeFiles/DayCFuck.dir/Solution.cpp.o
+.PHONY : Solution.cpp.o
 
-TwoSum.i: TwoSum.cpp.i
+Solution.i: Solution.cpp.i
 
-.PHONY : TwoSum.i
+.PHONY : Solution.i
 
 # target to preprocess a source file
-TwoSum.cpp.i:
-	$(MAKE) -f CMakeFiles/DayCFuck.dir/build.make CMakeFiles/DayCFuck.dir/TwoSum.cpp.i
-.PHONY : TwoSum.cpp.i
+Solution.cpp.i:
+	$(MAKE) -f CMakeFiles/DayCFuck.dir/build.make CMakeFiles/DayCFuck.dir/Solution.cpp.i
+.PHONY : Solution.cpp.i
 
-TwoSum.s: TwoSum.cpp.s
+Solution.s: Solution.cpp.s
 
-.PHONY : TwoSum.s
+.PHONY : Solution.s
 
 # target to generate assembly for a file
-TwoSum.cpp.s:
-	$(MAKE) -f CMakeFiles/DayCFuck.dir/build.make CMakeFiles/DayCFuck.dir/TwoSum.cpp.s
-.PHONY : TwoSum.cpp.s
+Solution.cpp.s:
+	$(MAKE) -f CMakeFiles/DayCFuck.dir/build.make CMakeFiles/DayCFuck.dir/Solution.cpp.s
+.PHONY : Solution.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DayCFuck"
-	@echo "... TwoSum.o"
-	@echo "... TwoSum.i"
-	@echo "... TwoSum.s"
+	@echo "... Solution.o"
+	@echo "... Solution.i"
+	@echo "... Solution.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

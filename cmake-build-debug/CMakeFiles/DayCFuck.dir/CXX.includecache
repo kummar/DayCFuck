@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/karry/Desktop/project/DayCFuck/TwoSum.cpp
+/Users/karry/Desktop/project/DayCFuck/Solution.cpp
+Solution.h
+/Users/karry/Desktop/project/DayCFuck/Solution.h
+iostream
+-
+vector
+-
+unordered_map
+-
+
+/Users/karry/Desktop/project/DayCFuck/Solution.h
 iostream
 -
 vector
@@ -21,4 +31,6 @@ vector
 -
 unordered_map
 -
+Solution.h
+/Users/karry/Desktop/project/DayCFuck/Solution.h
 

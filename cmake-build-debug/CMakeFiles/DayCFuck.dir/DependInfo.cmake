@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/karry/Desktop/project/DayCFuck/TwoSum.cpp" "/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles/DayCFuck.dir/TwoSum.cpp.o"
+  "/Users/karry/Desktop/project/DayCFuck/Solution.cpp" "/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles/DayCFuck.dir/Solution.cpp.o"
   "/Users/karry/Desktop/project/DayCFuck/main.cpp" "/Users/karry/Desktop/project/DayCFuck/cmake-build-debug/CMakeFiles/DayCFuck.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -2,15 +2,19 @@
 #include <vector>
 #include <unordered_map>
 #include "Solution.h"
+#include <string>
 
 using namespace std;
 
 int main() {
-    vector<int> nums{1,233,3,2,7,11,15};
-    int target = 9;
+    int x = 1234;
+    string word = "karry";
 
     Solution test;
-    vector res = test.twoSum(nums, target);
-    cout << res.size() << endl;
-    cout << res[0] << res[1] << endl;
+
+    int result = test.reverse(x);
+    cout << result << endl;
+
+    string resaaa = test.reverse(word);
+    cout << resaaa << endl;
 }

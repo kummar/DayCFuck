@@ -4,10 +4,16 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <string>
 
-using std::vector;
+using namespace std;
 
 class Solution{
 public:
+    // 两数相加
     vector<int> twoSum(vector<int>& nums, int target);
+
+    // 反转
+    int reverse(int x);
+    string reverse(string x);
 };

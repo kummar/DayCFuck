@@ -19,7 +19,7 @@ vector<int> Solution::twoSum(vector<int> &nums, int target) {
         m[nums[i]] = i;
     }
 
-    // 遍历vector, 用target减去每一个valuhne, 在HASH表里面寻找
+    // 遍历vector, 用target减去每一个value, 在HASH表里面寻找
     for(int i = 0; i < nums.size(); ++i){
         int t = target - nums[i];
         if(m.count(t) && m[t] != i){
@@ -55,5 +55,23 @@ string Solution::reverse(string x){
         x[i] = c;
     }
     return x;
+}
+
+bool Solution::isPalindrome(int x){
+    if (x<0 || (x>0 && x%10 == 0))
+    {
+        return false;
+    }
+
+    int temp = reverse(x);
+    if (x = temp / 10 || x == temp)
+
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 

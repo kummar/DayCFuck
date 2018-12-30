@@ -16,4 +16,7 @@ public:
     // 反转
     int reverse(int x);
     string reverse(string x);
+
+    // 回文
+    bool isPalindrome(int x);
 };

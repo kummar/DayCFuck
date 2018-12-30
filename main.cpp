@@ -7,14 +7,10 @@
 using namespace std;
 
 int main() {
-    int x = 1234;
-    string word = "karry";
+    int x = -10;
 
     Solution test;
 
-    int result = test.reverse(x);
+    bool result = test.isPalindrome(x);
     cout << result << endl;
-
-    string resaaa = test.reverse(word);
-    cout << resaaa << endl;
 }

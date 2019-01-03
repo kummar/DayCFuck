@@ -19,4 +19,7 @@ public:
 
     // 回文
     bool isPalindrome(int x);
+
+    // 罗马文转数字
+    int romanToInt(string s);
 };

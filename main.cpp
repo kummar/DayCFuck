@@ -7,10 +7,11 @@
 using namespace std;
 
 int main() {
-    int x = -10;
+    string s = "III";
 
     Solution test;
 
-    bool result = test.isPalindrome(x);
+    int result = test.romanToInt(s);
+
     cout << result << endl;
 }

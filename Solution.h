@@ -22,4 +22,7 @@ public:
 
     // 罗马文转数字
     int romanToInt(string s);
+
+    // 最长公共前缀
+    string longestCommonPrefix(vector<string>& strs);
 };

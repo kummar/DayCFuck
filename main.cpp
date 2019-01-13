@@ -7,11 +7,10 @@
 using namespace std;
 
 int main() {
-    string s = "III";
+    vector<string> strs = {"flower","flow","floght","flouck","flo"};
 
     Solution test;
-
-    int result = test.romanToInt(s);
+    string result = test.longestCommonPrefix(strs);
 
     cout << result << endl;
 }

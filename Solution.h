@@ -25,4 +25,7 @@ public:
 
     // 最长公共前缀
     string longestCommonPrefix(vector<string>& strs);
+
+    // 有效括号
+    bool isValid(string& s);
 };

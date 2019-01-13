@@ -7,10 +7,10 @@
 using namespace std;
 
 int main() {
-    vector<string> strs = {"flower","flow","floght","flouck","flo"};
+    string s = "{}";
 
     Solution test;
-    string result = test.longestCommonPrefix(strs);
+    bool result = test.isValid(s);
 
     cout << result << endl;
 }

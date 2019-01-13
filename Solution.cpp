@@ -105,3 +105,23 @@ string Solution::longestCommonPrefix(vector<string>& strs){
     }
     return strs[0];
 }
+
+bool Solution::isValid(string& s){
+    if (s.empty() || s.length() % 2 != 0)
+    {
+        return false;
+    }
+    for (int i = 0, j = s.size()-1; i < j; i++, j--)
+    {
+        while (i < j){
+            if(s[i] == s[j])
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+}

@@ -6,6 +6,7 @@
 #include <vector>
 #include <unordered_map>
 #include <string>
+#include <stack>
 
 using namespace std;
 
@@ -107,21 +108,32 @@ string Solution::longestCommonPrefix(vector<string>& strs){
 }
 
 bool Solution::isValid(string& s){
-    if (s.empty() || s.length() % 2 != 0)
+    stack<char> parentheses;
+
+    if (s.length() % 2 != 0)
     {
         return false;
     }
-    for (int i = 0, j = s.size()-1; i < j; i++, j--)
+
+    for(int i; i < s.size(); i++)
     {
-        while (i < j){
-            if(s[i] == s[j])
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+        if(s[i] == '{' || s[i] == '(' || s[i] == '[')
+        {
+            // 栈顶添加元素
+            parentheses.push(s[i]);
+        }
+        else
+        {
+            if(parentheses.empty()) return false;
+
+            // 返回栈顶元素
+            if(s[i] == '}' && parentheses.top() != '{') return false;
+            if(s[i] == ')' && parentheses.top() != '(') return false;
+            if(s[i] == ']' && parentheses.top() != '[') return false;
+
+            // 移除栈顶元素
+            parentheses.pop();
         }
     }
+    return parentheses.empty();
 }

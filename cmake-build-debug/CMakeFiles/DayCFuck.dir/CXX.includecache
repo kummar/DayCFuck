@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/karry/Desktop/project/DayCFuck/Solution.cpp
+Solution.h
+/Users/karry/Desktop/project/DayCFuck/Solution.h
+iostream
+-
+vector
+-
+unordered_map
+-
+string
+-
+stack
+-
+
 /Users/karry/Desktop/project/DayCFuck/Solution.h
 iostream
 -
@@ -26,5 +40,7 @@ unordered_map
 Solution.h
 /Users/karry/Desktop/project/DayCFuck/Solution.h
 string
+-
+stack
 -
 

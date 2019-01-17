@@ -38,6 +38,7 @@ int main() {
             // 移除栈顶元素
             cout << "Pop from parentheses is: " << s[i] << endl;
             parentheses.pop();
+            cout << "Now stack info is: " << parentheses.top() << " Empty or not: " << parentheses.empty() << endl;
         }
     }
     return parentheses.empty();
